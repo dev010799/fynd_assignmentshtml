@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        padding: 0;
+        /* margin: 0; */
+      }
+      .navBar {
+        display: inline;
+      }
+      /* header{
+        border-style: solid;
+        border-left: 0;
+        border-right: 0;
+        color: gray;
+      } */
+      h1 {
+        color: black;
+      }
+      caption {
+        display: table-caption;
+        text-align: center;
+        caption-side: bottom;
+        font-weight: bold;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <hr />
+        <ul>
+          <li class="navBar">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navBar">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="navBar">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <h1>Consulting Pvt. Ltd.</h1>
+        <hr />
+      </nav>
+    </header>
+    <main>
+      <h2>Portfolio</h2>
+      <div class="project1">
+        <h3>Project 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          aperiam numquam ratione enim explicabo accusantium facilis nihil sint
+          pariatur quod? Ratione molestiae autem odio fugit facere, sunt neque,
+          ab optio cum, vel inventore nulla atque assumenda pariatur libero eum
+          distinctio!
+        </p>
+      </div>
+      <div class="project2">
+        <h3>Project 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          aperiam numquam ratione enim explicabo accusantium facilis nihil sint
+          pariatur quod? Ratione molestiae autem odio fugit facere, sunt neque,
+          ab optio cum, vel inventore nulla atque assumenda pariatur libero eum
+          distinctio!
+        </p>
+      </div>
+      <div class="plans">
+        <h2>Plans</h2>
+        <div>
+          <table>
+            <caption>
+              Hosting Plans and Pricing for various Cloud Providers
+            </caption>
+              <thead>
+                <th rowspan="2">Plan</th>
+                <th rowspan="2">Max cluster size</th>
+                <th rowspan="2">Cloud provider</th>
+                <!--Colspan = Col. Multiple data -->
+                <th colspan="2">Price in USD (per node)</th>
+                <tr>
+                  <th>Billed per hour</th>
+                  <th>Billed per month</th>
+                </tr>
+              </thead>
+            <tr>
+              
+              <tr>
+                <th rowspan="3">Free Tier</th>
+                <td>3</td>
+                <td>AWS</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Azure</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>GCP</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+
+              <tr>
+                <th rowspan="3">Basic</th>
+                <td>15</td>
+                <td>AWS</td>
+                <td>0.10</td>
+                <td>0.05</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Azure</td>
+                <td>0.15</td>
+                <td>0.08</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>GCP</td>
+                <td>0.20</td>
+                <td>0.10</td>
+              </tr>
+              <tr>
+                <th rowspan="3">Pro</th>
+                <td>200</td>
+                <td>AWS</td>
+                <td>0.07</td>
+                <td>0.03</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>Azure</td>
+                <td>0.10</td>
+                <td>0.05</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>GCP</td>
+                <td>0.12</td>
+                <td>0.06</td>
+              </tr>
+          </table>
+        </div>
+      </div>
+      <hr />
+    </main>
+    <footer>
+      <p>&copy; Consulting Pvt. Ltd.</p>
+    </footer>
+  </body>
+</html>
