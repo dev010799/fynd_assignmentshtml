@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FixedMenu</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: rgb(40, 13, 97);
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        /* overflow: hidden; */
+      }
+
+      .navbar a:hover {
+        /* background: #ddd; */
+        color: black;
+        border-bottom: red;
+      }
+      .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; /* Used in this example to enable scrolling */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+        src="https://www.behance.net/gallery/35422441/LOGOS-2015/modules/222519453"
+        alt=""
+      />
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main">
+      <h1>Example Consulting Pvt. Ltd.</h1>
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus
+        corrupti qui, ea iusto porro alias omnis amet nesciunt quaerat eius iure
+        nemo laborum provident, ullam at deleniti fuga inventore! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Sunt minus corrupti qui, ea
+        iusto porro alias omnis amet nesciunt quaerat eius iure nemo laborum
+        provident, ullam at deleniti fuga inventore!
+      </p>
+    </div>
+  </body>
+</html>
